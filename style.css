@@ -36,6 +36,11 @@ padding: 20px 10%;
 background: transparent;
 border-bottom: 1px solid transparent;
 }   
+.navbar{
+    display: flex;
+
+ }
+
 #logo{
     font-size: 25px;
     font-weight: 600;
@@ -47,7 +52,8 @@ border-bottom: 1px solid transparent;
    }
  .navbar{
     display: flex;
-} 
+    
+}  
 .navbar a{
 color: var(--second-color);
 font-size: 17px;
@@ -69,7 +75,7 @@ transition: all .45s ease;
         z-index: 10001;
         margin: left 25px; ;
         transition: all .45s ease;
-        /* display: none; */
+         display: none; 
      }  
      span{
         color:   var(--main-color);
@@ -376,6 +382,16 @@ color: var(--text-color);
         --p-font:0.8rem;
        --write-color:#ffffff;
     }
+   .navbar{
+    display: flex;
+    position:absolute;
+    top: -1000%;
+    right: 0;
+    left: 0;
+    flex-direction: column;
+    background-color: #202020;
+    text-align: left;
+ }
     
     .contact-icon i{
         height: 30px;
@@ -429,17 +445,8 @@ color: var(--text-color);
         .contact{
      grid-template-columns: 1fr;
         }
-        .navbar{
-            position:absolute;
-            top: -1000%;
-            right: 0;
-            left: 0;
-            display: flex;
-            flex-direction: column;
-            background-color: #202020;
-            text-align: left;
-         }
-         .navbar .open{ 
+      
+     .navbar.open{ 
             top: 100%;
            
          }  
@@ -447,7 +454,7 @@ color: var(--text-color);
             display: block;
             margin: 15px;
             font-size: 15px;
-         }
+         } 
          #menu-icon{
           display: block;
         }
@@ -469,6 +476,38 @@ color: var(--text-color);
         --write-color:#ffffff;
     
     }
+    .navbar{
+        display: flex;
+        position:absolute;
+        top: -1000%;
+        right: 0;
+        left: 0;
+        flex-direction: column;
+        background-color: #202020;
+        text-align: left;
+     }
+     .navbar.open{ 
+        top: 100%;
+       
+     }  
+     .navbar a{
+        display: block;
+        margin: 15px;
+        font-size: 15px;
+     } 
+     #menu-icon{
+      display: block;
+    }
+        
+    #menu-icon{
+        font-size: 35px;
+        color: var(--text-color);
+        cursor: pointer;
+        z-index: 10001;
+        margin: left 25px; ;
+        transition: all .45s ease;
+          }
+        
     .portfolio-contenaire{
         display: grid;
         grid-template-columns: repeat(auto-fit, minmax(180px, auto));
@@ -491,6 +530,29 @@ color: var(--text-color);
             margin-top: 3rem;
         
         }
+        .navbar.open{ 
+            top: 100%;
+           
+         }  
+         .navbar a{
+            display: block;
+            margin: 15px;
+            font-size: 15px;
+         } 
+         #menu-icon{
+          display: block;
+        }
+        .navbar{
+            display: flex;
+            position:absolute;
+            top: -1000%;
+            right: 0;
+            left: 0;
+            flex-direction: column;
+            background-color: #202020;
+            text-align: left;
+         }
+            
         .Services-content{
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(170px, auto ));

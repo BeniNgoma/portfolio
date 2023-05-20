@@ -12,12 +12,18 @@
 let menu = document.getElementById('menu-icon');
 console.log(menu);
 
-let navbar = document.querySelector('navbar');
+let navbar = document.querySelector('.navbar');
 menu.onclick = () => {
      menu.classList.toggle('bx-x');
-    navbar.classList.toggle('navbar');
+    navbar.classList.toggle('open');
+    
    
-}
+};
+
+window.onscroll = () => {
+    menu.classList.remove('bx-x');
+   navbar.classList.remove('open'); 
+};
 
 
    
