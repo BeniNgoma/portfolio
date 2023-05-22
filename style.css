@@ -32,7 +32,7 @@ header{
 display: flex;
 align-items: center;
 justify-content: space-between;
-padding: 40px 10% 40px;  
+padding: 20px 10% ;  
 /* padding: 20px 10%;  */
 background: transparent;
 border-bottom: 1px solid transparent;
@@ -82,7 +82,7 @@ transition: all .45s ease;
         color:   var(--main-color);
       }
      section{
-        padding: 40px 10% 40px;  
+        padding: 160px 10% 100px;  
     } 
     .home{
         position: relative;  
@@ -142,7 +142,6 @@ transition: all .45s ease;
         font-size: var(--p-font);
         margin-bottom: 30px;
         /* line-height: 1.1; */
-        display: flex;
         text-align: justify;
      }
      .one:hover{
