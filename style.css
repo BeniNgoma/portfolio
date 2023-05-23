@@ -140,9 +140,22 @@ transition: all .45s ease;
      }
      .home-text p{
         font-size: var(--p-font);
-        margin-bottom: 30px;
-        /* line-height: 1.1; */
+        display: flex;
         text-align: justify;
+        justify-content: center;
+        /* text-align: ; */
+
+        /* line-height: 1.2; 
+        margin-bottom: 3rem;
+        text-align: justify;
+        letter-spacing: normal;
+        word-spacing: 1px; */
+        /* font-size: var(--p-font); */
+        /* margin-bottom: 30px; */
+        /* line-height: 1.1; 
+        display: flex;
+        justify-content: center;
+        text-align: justify; */
      }
      .one:hover{
         transform: scale(0.9);
