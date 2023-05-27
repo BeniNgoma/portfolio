@@ -111,6 +111,10 @@ transition: all .45s ease;
         color: #fff;
         transition: all .45s ease;
      }
+     .par{
+        margin-bottom: 40px;
+        width: 60%;
+     }
      .btn2{
         display: inline-block;
         margin-left: 25px;
@@ -273,7 +277,9 @@ transition: all .45s ease;
         border-radius: 8px;
     } 
     .rows img{
-        width: 100%; 
+        object-fit: cover;
+         width: 100%; 
+         height: 250px;
         border-radius: 8px;
         display: block;
         transition:transform 0.6s;
@@ -284,10 +290,30 @@ transition: all .45s ease;
     .layer p{
         font-size: 12px;
     }
-    .layer{
-        height: 0;
+    .about-text a{
+        color: var(--text-color);
+    }
+    .card-apropos{
+        height: 50px;
         width: 100%;
-        background: linear-gradient(rgba(0,0,0,0.1), #ff004f);
+        background: var(--main-color);
+        color: var(--text-color);
+        padding: 2px 20px;
+        display: flex;
+        text-align: center;
+        align-items: center;
+        text-align: justify;
+      
+    }
+    .card-apropos p{
+        display: flex;
+        text-align: center;
+
+    }
+    .layer{
+        height: 100%;
+        width: 100%;
+        background: linear-gradient(rgba(0,0,0,0.1), #ff4d05);
         position:absolute;
         border-radius: 8px;
         left: 0;
@@ -302,7 +328,7 @@ transition: all .45s ease;
     
     } 
     .rows:hover .layer{
-        height: 100%;
+       
         }
     .contact{
         display: grid;
@@ -402,6 +428,13 @@ color: var(--text-color);
         --p-font:0.8rem;
        --write-color:#ffffff;
     }
+    .par{
+        margin-bottom: 40px;
+        width: 90%;
+     }
+     .card-apropos h4{
+        font-size: 15px;
+     }
    .navbar{
     display: flex;
     position:absolute;
@@ -496,6 +529,13 @@ color: var(--text-color);
         --write-color:#ffffff;
     
     }
+    .par{
+        margin-bottom: 40px;
+        width: 100%;
+     }
+     .card-apropos h4{
+        font-size: 15px;
+     }
     .navbar{
         display: flex;
         position:absolute;
