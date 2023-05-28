@@ -460,7 +460,7 @@ color: var(--text-color);
         transition: all .45s ease;
     
      }
-    .btn1{
+    btn1{
         font-size: 10px;
         width: 140px;
         background: var(--main-color);
